@@ -1,0 +1,37 @@
+{
+  "name": "codebin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "axios": "^1.6.8",
+    "framer-motion": "^11.0.27",
+    "mongoose": "^8.3.1",
+    "next": "14.1.4",
+    "next-auth": "^4.24.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.3",
+    "react-icons": "^5.0.1",
+    "react-spinners": "^0.13.8",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-toastify": "^10.0.5",
+    "sooner": "^1.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-syntax-highlighter": "^15.5.11",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,35 @@
+/* body {
+  background-color: #002b36;
+  margin: 0;
+} */
+.wrapper {
+  display: flex;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+}
+.line-numbers {
+  color: #7d7d7d;
+  font-family: monospace;
+  margin-top: 10px;
+  text-align: end;
+}
+textarea {
+  background-color: transparent;
+  resize: none;
+  width: 100%;
+  padding: 0;
+  margin-left: 1rem;
+  color: #7d7d7d;
+  min-height: calc(100vh - 2rem);
+  border: none;
+  outline: none;
+}
+
+pre {
+  margin: 0;
+}
+
+#code-display {
+  padding-top: 0;
+  padding-bottom: 0;
+}
